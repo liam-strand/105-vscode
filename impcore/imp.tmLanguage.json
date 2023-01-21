@@ -1,0 +1,40 @@
+{
+    "scopeName": "source.imp",
+    "patterns": [
+        {"include": "#comment"},
+        {"include": "#keywords"},
+        {"include": "#literals"},
+        {"include": "#primitive-functions"},
+        {"include": "#predefined-functions"}
+    ],
+    "repository": {
+        "comment": {
+            "name": "comment.line.semi-colon.imp",
+            "match": ";.*$"
+        },
+        "keywords": {
+            "match": "\\((check-expect|check-assert|check-error|val|define|use|set|if|while|begin)\\s",
+            "captures": {
+                "1": { "name": "keyword.imp" }
+            }
+        },
+        "literals": {
+            "match": "([+-]?\\d+)",
+            "captures": {
+                "1": { "name": "constant.numeral.imp" }
+            }
+        },
+        "primitive-functions": {
+            "match": "\\((\\+|-|\\*|\\/|=|<|>|println|print|printu)\\s",
+            "captures": {
+                "1": { "name": "support.function.imp" }
+            }
+        },
+        "predefined-functions": {
+            "match": "\\((and|or|not|<=|>=|!=|mod|negated)\\s",
+            "captures": {
+                "1": { "name": "support.function.imp" }
+            }
+        }
+    }
+}
