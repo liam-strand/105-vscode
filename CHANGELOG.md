@@ -1,15 +1,16 @@
 # Change Log
 
-All notable changes to the "medford-vscode" extension will be documented in this file.
+All notable changes to the "105-vscode" extension will be documented in this file.
 
 
 ## [Unreleased]
 
-## [0.1.0] - 2022-07-22
+## [0.0.1] - 2023-01-21
 ### Added
-- Syntax Highlighting
-- Autocomplete for previously defined macros
-- Autocomplete for expected major tokens
-- Autocomplete for expected minor tokens
-- Syntactic validation
-- Semantic validation
+- Syntax Highlighting for Impcore
+
+## [0.0.2] - 2023-01-22
+### Added
+- Extension icon and Impcore file icon
+
+

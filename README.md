@@ -7,6 +7,9 @@ A VSCode extension that adds language support for the 105 bridge languages.
 - Syntax highlighting
 - More to come!
 
+## Languages: 
+- Impcore
+
 ## Requirements:
 
 ## Extension Settings:
@@ -15,7 +18,7 @@ There are no user-configurable settings at this time. If you'd like one added, p
 
 ## Issues:
 
-This software is in ***alpha***! If you run into an issue, please open an issue in the [extension repository](https://github.com/liam-strand/105-vscode).
+This software is in ***alpha***! If you run into an issue, please open an issue here
 
 ## Contributors:
 - [Liam Strand](https://github.com/liam-strand)

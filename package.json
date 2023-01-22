@@ -8,9 +8,11 @@
     "publisher": "LiamStrand",
     "repository": {
         "type": "git",
-        "directory": "https://github.com/liam-strand/105ls.git"
+        "directory": "https://github.com/liam-strand/105-vscode.git",
+        "url": "https://github.com/liam-strand/105-vscode"
     },
-    "version": "0.0.1",
+    "icon": "assets/logo.png",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.68.0"
     },
@@ -31,7 +33,11 @@
                 "extensions": [
                     ".imp"
                 ],
-                "configuration": "./impcore/language-configuration.json"
+                "configuration": "./impcore/language-configuration.json",
+                "icon": {
+                    "dark": "assets/icon-dark.png",
+                    "light": "assets/icon-light.png"
+                }
             }
         ],
         "grammars": [
