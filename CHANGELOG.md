@@ -13,4 +13,8 @@ All notable changes to the "105-vscode" extension will be documented in this fil
 ### Added
 - Extension icon and Impcore file icon
 
+## [0.0.3] - 2023-01-23
+### Fixed
+- Although a single `;` is a comment in Impcore, we conventionally use `;;`, so I've changed the extension to use `;;` instead of `;` for line comments. 
+
 

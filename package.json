@@ -8,11 +8,10 @@
     "publisher": "LiamStrand",
     "repository": {
         "type": "git",
-        "directory": "https://github.com/liam-strand/105-vscode.git",
         "url": "https://github.com/liam-strand/105-vscode"
     },
     "icon": "assets/logo.png",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.68.0"
     },
@@ -28,7 +27,7 @@
                 "id": "impcore",
                 "aliases": [
                     "Impcore",
-                    "medford"
+                    "impcore"
                 ],
                 "extensions": [
                     ".imp"
