@@ -17,5 +17,12 @@
     "surroundingPairs": [
         ["(", ")"],
         ["[", "]"]
-    ]
+    ],
+    "colorizedBracketPairs": [
+        ["(", ")"],
+        ["[", "]"]
+    ],
+    "folding": {
+        "offSide": true
+    }
 }

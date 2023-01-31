@@ -32,7 +32,7 @@
                 "extensions": [
                     ".imp"
                 ],
-                "configuration": "./impcore/language-configuration.json",
+                "configuration": "./impcore/imp.language-configuration.json",
                 "icon": {
                     "dark": "assets/icon-dark.png",
                     "light": "assets/icon-light.png"
