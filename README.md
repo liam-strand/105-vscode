@@ -18,7 +18,7 @@ There are no user-configurable settings at this time. If you'd like one added, p
 
 ## Issues:
 
-This software is in ***alpha***! If you run into an issue, please open an issue here
+This software is in ***alpha***! If you run into an issue, please open an issue [here](https://github.com/liam-strand/105-vscode/issues).
 
 ## Contributors:
 - [Liam Strand](https://github.com/liam-strand)
